@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="730px"
+	 height="70px" viewBox="-145.5 -7 730 70" enable-background="new -145.5 -7 730 70" xml:space="preserve">
+<g id="Extra" display="none">
+	<g display="inline">
+		<rect x="8.062" y="13" fill="none" width="30.938" height="10"/>
+		<text transform="matrix(1 0 0 1 12.0273 20.1001)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">Km/h</text>
+		<rect x="217.297" y="13" fill="none" width="18" height="10"/>
+		<text transform="matrix(1 0 0 1 225.3652 20.1001)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">50</text>
+		<text transform="matrix(1 0 0 1 146.7158 20.1001)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">30</text>
+		<rect x="281.047" y="13" fill="none" width="18" height="10"/>
+		<text transform="matrix(1 0 0 1 289.1152 20.1001)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">70</text>
+		<rect x="343.062" y="13" fill="none" width="18" height="10"/>
+		<text transform="matrix(1 0 0 1 351.1299 20.1001)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">90</text>
+		<rect x="404.048" y="13" fill="none" width="18" height="10"/>
+		<text transform="matrix(1 0 0 1 417.082 20.1001)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">+</text>
+		<rect x="373.214" y="13" fill="none" width="18" height="10"/>
+		<text transform="matrix(1 0 0 1 376.3164 20.1001)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">100</text>
+		<rect x="49.396" y="13" fill="none" width="18" height="10"/>
+		<text transform="matrix(1 0 0 1 55.9131 20.1001)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">0</text>
+		<rect x="62.896" y="27.667" fill="#2D2D2D" width="98.229" height="12.667"/>
+		<rect x="161.126" y="27.667" fill="#565656" width="77.104" height="12.667"/>
+		<rect x="53.896" y="27.667" width="9" height="12.667"/>
+		<rect x="238.229" y="27.667" fill="#0033FF" width="61.416" height="12.667"/>
+		<rect x="299.646" y="27.667" fill="#33CCCC" width="61.416" height="12.667"/>
+		<rect x="361.062" y="27.667" fill="#FF9999" width="30.151" height="12.667"/>
+		<rect x="391.214" y="27.667" fill="#FF0000" width="30.149" height="12.667"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="143.063,18 62.896,18 62.896,22.833 
+					"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="222.73,18 161.126,18 161.126,22.833 
+					"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="284.67,18 239.229,18 239.229,22.833 
+					"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="346.854,18 301.411,18 
+			301.411,22.833 		"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="372.146,18 362.661,18 
+			362.661,22.833 		"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="413.048,18 393.161,18 
+			393.161,22.833 		"/>
+	</g>
+</g>
+<g id="Layer_1">
+	<g>
+		<rect x="-144.765" y="12.488" fill="none" width="54.241" height="9.626"/>
+		<rect x="207.608" y="12.488" fill="none" width="32.83" height="9.626"/>
+		<rect x="323.88" y="12.488" fill="none" width="32.829" height="9.626"/>
+		<rect x="436.986" y="12.488" fill="none" width="32.83" height="9.626"/>
+		<rect x="548.215" y="12.488" fill="none" width="32.83" height="9.626"/>
+		<rect x="491.978" y="12.488" fill="none" width="32.83" height="9.626"/>
+		<rect x="-98.618" y="12.488" fill="none" width="32.829" height="9.626"/>
+		<rect x="-73.997" y="26.607" fill="#2D2D2D" width="179.156" height="12.193"/>
+		<rect x="105.161" y="26.607" fill="#565656" width="140.627" height="12.193"/>
+		<rect x="-90.411" y="26.607" width="16.415" height="12.193"/>
+		<rect x="245.785" y="26.607" fill="#0033FF" width="112.014" height="12.193"/>
+		<rect x="357.801" y="26.607" fill="#33CCCC" width="112.016" height="12.193"/>
+		<rect x="469.816" y="26.607" fill="#FF9999" width="54.991" height="12.193"/>
+		<rect x="524.808" y="26.607" fill="#FF0000" width="54.988" height="12.193"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="72.216,17.301 -73.997,17.301 
+			-73.997,21.954 		"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="217.518,17.301 105.161,17.301 
+			105.161,21.954 		"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="330.486,17.301 247.608,17.301 
+			247.608,21.954 		"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="443.9,17.301 361.021,17.301 
+			361.021,21.954 		"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="490.031,17.301 472.732,17.301 
+			472.732,21.954 		"/>
+		<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="564.629,17.301 528.358,17.301 
+			528.358,21.954 		"/>
+		<text transform="matrix(1 0 0 1 -136.6162 19.6274)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="9.6263">Km/h</text>
+		<text transform="matrix(1 0 0 1 -84.9043 19.3223)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="9.6263">0</text>
+		<text transform="matrix(1 0 0 1 82.3242 19.3223)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="9.6263">30</text>
+		<text transform="matrix(1 0 0 1 227.4551 19.3223)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="9.6263">50</text>
+		<text transform="matrix(1 0 0 1 343.291 19.3223)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="9.6263">70</text>
+		<text transform="matrix(1 0 0 1 455.5029 19.3223)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="9.6263">90</text>
+		<text transform="matrix(1 0 0 1 504.2949 19.3223)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="9.6263">100</text>
+		<text transform="matrix(1 0 0 1 574.1016 19.6274)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="9.6263">+</text>
+	</g>
+</g>
+</svg>

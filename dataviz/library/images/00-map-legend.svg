@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="439px" height="56px" viewBox="0 0 439 56" enable-background="new 0 0 439 56" xml:space="preserve">
+<g>
+	<rect x="8.062" y="12" fill="none" width="30.938" height="10"/>
+	<text transform="matrix(1 0 0 1 12.0273 19.0991)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">Km/h</text>
+	<rect x="217.297" y="12" fill="none" width="18" height="10"/>
+	<text transform="matrix(1 0 0 1 225.3652 19.0991)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">50</text>
+	<text transform="matrix(1 0 0 1 146.7158 19.0991)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">30</text>
+	<rect x="281.047" y="12" fill="none" width="18" height="10"/>
+	<text transform="matrix(1 0 0 1 289.1152 19.0991)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">70</text>
+	<rect x="343.062" y="12" fill="none" width="18" height="10"/>
+	<text transform="matrix(1 0 0 1 351.1299 19.0991)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">90</text>
+	<rect x="404.048" y="12" fill="none" width="18" height="10"/>
+	<text transform="matrix(1 0 0 1 417.082 19.0991)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">+</text>
+	<rect x="373.214" y="12" fill="none" width="18" height="10"/>
+	<text transform="matrix(1 0 0 1 376.3164 19.0991)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">100</text>
+	<rect x="49.396" y="12" fill="none" width="18" height="10"/>
+	<text transform="matrix(1 0 0 1 55.9131 19.0991)" fill="#CCCCCC" font-family="'SourceSansPro-Regular'" font-size="10">0</text>
+	<rect x="62.896" y="26.667" fill="#2D2D2D" width="98.229" height="12.667"/>
+	<rect x="161.126" y="26.667" fill="#565656" width="77.104" height="12.667"/>
+	<rect x="53.896" y="26.667" width="9" height="12.667"/>
+	<rect x="238.229" y="26.667" fill="#0033FF" width="61.416" height="12.667"/>
+	<rect x="299.646" y="26.667" fill="#33CCCC" width="61.416" height="12.667"/>
+	<rect x="361.062" y="26.667" fill="#FF9999" width="30.152" height="12.667"/>
+	<rect x="391.214" y="26.667" fill="#FF0000" width="30.15" height="12.667"/>
+	<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="143.063,17 62.896,17 62.896,21.833 	
+		"/>
+	<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="222.73,17 161.126,17 161.126,21.833 	
+		"/>
+	<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="284.67,17 239.229,17 239.229,21.833 	
+		"/>
+	<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="346.854,17 301.411,17 301.411,21.833 
+			"/>
+	<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="372.146,17 362.661,17 362.661,21.833 
+			"/>
+	<polyline fill="none" stroke="#CCCCCC" stroke-width="0.25" stroke-miterlimit="10" points="413.048,17 393.161,17 393.161,21.833 
+			"/>
+</g>
+</svg>
