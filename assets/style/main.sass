@@ -1,0 +1,129 @@
+// @import "../../bower_components/neat/core/_neat.scss"
+
+$mobile: 500px
+$tablet: 768px
+$desktop: 100px
+
+$width: 700px
+
+body
+	margin: 0
+	padding: 0
+	font-family: "Source Sans Pro", Arial, sans-serif
+
+.background
+	background-color: #1c1c1c	
+
+iframe
+	overflow: hidden
+	border: none
+
+.separator
+	border: 1px solid gray
+	width: $width
+	clear: both
+	margin: 10px auto
+
+// Typography
+h3 
+	color: gray
+	padding: 0px 40px 0
+	font-weight: normal
+	text-align: left
+
+	position: relative
+	top: 21px
+
+// header
+.header 
+	text-transform: uppercase
+	font-size: 1em
+	width: $width
+	margin: 20px auto 0
+
+	h1
+		padding: 10px 5% 0
+		margin: 0
+		color: #0099cc /*red*/ 
+
+	h2 
+		color: white
+		padding: 0 5% 20px
+		margin: 0
+
+// charts containers
+$map_box_height: 900px
+#map_box  
+	width: $width
+	margin: 0 auto
+	text-align: center
+	height: $map_box_height
+
+	iframe
+		width: $width
+		height: $map_box_height - 50px
+
+$chart_box_height: 400px
+#chart_box
+	width: $width
+	margin: 0 auto
+	text-align: center
+	height: $chart_box_height
+
+	iframe
+		width: $width
+		height: $chart_box_height - 50px
+
+$map_direction_box_height: 700px
+#map_direction_box
+	width: $width
+	margin: 0 auto
+	text-align: center
+	height: $map_direction_box_height 
+
+	iframe 
+		width: 100%
+		height: $map_direction_box_height - 50px
+
+#map_screenshot 
+	width: $width
+	height: auto
+	margin: 0 auto
+
+	img
+		height: auto
+		margin: 0 auto 40px
+		display: block
+
+.border_bottom 
+	border-bottom: 1px solid gray
+
+// footer
+footer
+	width: $width
+	padding: 20px auto
+	
+	text-align: left
+	margin: 10px auto 30px
+
+	.col_a, .col_b
+		width: 45%
+		float: left
+
+	h4
+		margin: 10px 0
+
+	p
+		color: gray
+		margin: 5px 0
+
+	a
+		color: white 
+		text-decoration: none
+		font-weight: normal
+
+		a:hover
+			text-decoration: underline
+
+
+

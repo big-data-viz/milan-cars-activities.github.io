@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cobra</title>
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600' rel='stylesheet' type='text/css'>
+		<meta charset="UTF-8">
+	</head>
+	<body class="background">
+		<main>
+		   	<div id="option" style="margin: 30px 4%">
+				<form>
+    				<div>
+    					<input name="radio" id="radio1" type="radio" onclick="night()"><label for="radio1">Night (00-06)</label>
+    					<input name="radio" id="radio2" type="radio" onclick="morning()"><label for="radio2">Morning (06-12)</label>
+    					<input name="radio" id="radio3" type="radio" onclick="afternoon()"><label for="radio3">Afternoon (12-18)</label>
+    					<input name="radio" id="radio4" type="radio" onclick="evening()"><label for="radio4">Evening (18-00)</label>
+    				</div>
+				</form>
+                <div class="clear"></div>
+			</div>
+			<div id="map"></div>
+		</main>
+		<div class="clear"></div>
+		<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../../bower_components/d3/d3.min.js"></script>
+	   
+		<script src="functions/index.js"></script>
+		<!--<script src="functions/spin.min.js"></script>-->
+
+		<script src="functions/functions.js"></script>
+	</body>
+</html>

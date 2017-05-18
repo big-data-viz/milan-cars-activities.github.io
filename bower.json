@@ -1,0 +1,30 @@
+{
+  "name": "Milan cars activities",
+  "homepage": "https://milan-cars-activities.github.io/",
+  "description": "A panoramical visualization of COBRA's big data repository",
+  "version": "1.0.0",
+  "authors": [
+    "María de los Ángeles Briones",
+    "Ali Hmaity",
+    "Giovanni Profeta"
+  ],
+  "main": "index.html",
+  "private": false,
+  "dependencies": {
+    "jquery": "#3.1.1",
+    "d3": "3",
+    "neat": "2.0.0"
+  },
+  "keywords": [
+    "digital traces",
+    "map",
+    "city",
+    "cars flows",
+    "data visualization"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ]
+}

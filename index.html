@@ -1,153 +1,77 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Cars activity in Milan</title>
-        <script src="dataviz/library/jquery.min.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="dataviz/library/style.css" />
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600' rel='stylesheet' type='text/css'>
-        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=4.0">
-        <meta charset="UTF-8">
-    </head>
-    <body class="background">
-        <main>
-            <div class="header">
-                <h1>Cars activity in Milan</h1>
-                <h2>A panoramical visualization of Cobra's big data repository</h2>
-            </div>
-            <div id="map_box" style="overflow:hidden; border-top: 1px solid gray;" class="border_bottom">
-                <h3>Average speed of active cars per square</h3>
-                <iframe src="dataviz/cobra-map.html"  id="iframe_one" align="center" onload="iframeLoaded_one()" scrolling="no"></iframe>
-            </div> 
-            <div id="chart_box" style="overflow:hidden" class="border_bottom">
-                <h3>Speed and average amount of active cars for hours</h3>
-                <iframe src="dataviz/cobra-hour-chart.html"  id="iframe_two" align="center" onload="iframeLoaded_two()" scrolling="no"></iframe>
-            </div> 
-            <div id="map_direction_box" style="overflow:hidden" class="border_bottom">
-                <h3>Stationary cars (23-04)</h3>
-                <!--<h3>Non Milan cars directions in the morning (06-09)</h3>-->
-                <iframe src="dataviz/cobra-map-stationary-cars.html"  id="iframe_three" align="center" onload="iframeLoaded_three()" scrolling="no"></iframe>
-            </div> 
-            <div id="map_screenshot" style="overflow:hidden; border-top: 1px solid gray;" class="border_bottom">
-                <h3 style="padding-bottom: 20px;">Non-Milan Cars running on Sunday and Monday</h3>
-                <img src="dataviz/library/images/sm.gif" alt="Cars running on Sunday and Monday" width="600" height="282" style="margin-bottom: 20px;">
-            </div>
-            <footer>
-            	<h4>Politecnico di Milano</h4>
-            	<h4>A multidisciplinary perspective on Big Data</h4>
-            	<h4>Professor: Emanuele Della Valle</h4>
-            	<h4>PhD Students: María de los Ángeles Briones, Ali Hmaity, Giovanni Profeta</h4>
-                <h4>Source of the Dataset: <a href="http://www.telecomitalia.com/bigdatachallenge" title="Telecom Italia Big Data Challenge 2014" target="_blank">Telecom Italia Big Data Challenge 2014</a></h4>
-            </footer>
-            <!-- <div id="map_box">
-                <iframe src="dataviz/cobra-map.html" align="center"></iframe>
-            </div>-->
-        </main>
-        <style>
-            .background{
-                background-color: #1c1c1c; /*#303030;*/
-            }
-    </style>
-    </body>
-    <script type="text/javascript">
-    function iframeLoaded_one() {
-        var iFrameID = document.getElementById('iframe_one');
-        if(iFrameID) {
-            // here you can make the height, I delete it first, then I make it again
-            iFrameID.height = "";
-            iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-        }   
-    }
-    function iframeLoaded_two() {
-        var iFrameID = document.getElementById('iframe_two');
-        if(iFrameID) {
-            // here you can make the height, I delete it first, then I make it again
-            iFrameID.height = "";
-            iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-        }   
-    }
-    function iframeLoaded_three() {
-        var iFrameID = document.getElementById('iframe_three');
-        if(iFrameID) {
-            // here you can make the height, I delete it first, then I make it again
-            iFrameID.height = "";
-            iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
-        }   
-    }
-    </script>  
-    <style type="text/css">
-        .header {
-            text-transform: uppercase;
-            font-size: 1em;
-            width: 60%; 
-            margin: 0 auto;
-        }
-        .header h1 {
-            padding: 10px 5% 0;
-            margin: 0;
-            color: #0099cc; /*red;*/ 
-        }
-        .header h2 {
-            color: white;
-            padding: 0 5% 20px;
-            margin: 0;
-        }
-        h3 {
-            color: gray;
-            padding: 0px 40px 0;
-            font-weight: normal;
-            text-align: left;
+	<head>
+		<title>Cars activity in Milan</title>
+		<link rel="stylesheet" type="text/css" href="assets/library/style.css" />
+		<link rel="stylesheet" type="text/css" href="assets/style/main.css" />
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,600' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0, maximum-scale=4.0">
+		<meta charset="UTF-8">
+	</head>
+	<body class="background">
+		<main>
+			<div class="header">
+				<h1>Cars activity in Milan</h1>
+				<h2>A panoramical visualization of COBRA's big data repository</h2>
+			</div>
 
-            position: relative;
-            top: 21px;
-        }
-        #map_box, #chart_box, #map_direction_box,  footer  {
-            /*height: auto;
-            overflow: visible;
-            border: 1px solid red;
-            height:inherit; */
-            margin: 0 auto;
-            width: 60%; /*65%*/
-            text-align: center;
-            height:inherit; 
-        }
-        #map_box iframe, #chart_box iframe, #map_direction_box iframe {
-            width: 100%;
-            /*height: inherit;*/
-            border: none;
-            min-height: 300px;
-        }
-        #map_screenshot {
-            width: 60%;
-            height: auto;
-            margin: 0 auto;
-        }
-        #map_screenshot img {
-            width: 100%; /*70%*/
-            height: auto;
-            /*position: relative;
-            top: 30px;*/
-            margin: 0 auto;
-            display: block;
-        }
- 
-        .border_bottom {
-            border-bottom: 1px solid gray;
-        }
-        footer{
-        	padding: 20px 0;
-        }
-        h4{
-            color: gray;
-            padding: 0px 20px;
-            font-size: 1em;
-            font-weight: normal;
-            text-align: left;
-            margin: 5px 40px;
-        }
-        h4 a{
-           color: white; 
-           text-decoration: none;
-           font-weight: normal;
-        }
-    </style>
+			<hr class="separator"/>
+
+			<div id="map_box">
+				<h3>Average speed of active cars per square</h3>
+				<iframe src="views/cobra-map/index.html"  id="iframe_one" align="center" scrolling="no"></iframe>
+			</div> 
+
+			<hr class="separator"/>
+
+			<div id="chart_box">
+				<h3>Speed and average amount of active cars for hours</h3>
+				<iframe src="views/cobra-hour-chart/index.html"  id="iframe_two" align="center" scrolling="no"></iframe>
+			</div> 
+
+			<hr class="separator"/>
+
+			<div id="map_direction_box">
+				<h3>Stationary cars (23-04)</h3>
+				<!--<h3>Non Milan cars directions in the morning (06-09)</h3>-->
+				<iframe src="views/cobra-map-stationary-cars/index.html"  id="iframe_three" align="center" scrolling="no"></iframe>
+			</div> 
+
+			<hr class="separator"/>
+
+			<div id="map_screenshot">
+				<h3 style="padding-bottom: 20px;">Non-Milan Cars running on Sunday and Monday</h3>
+				<img src="../../assets/images/sm.gif" alt="Cars running on Sunday and Monday" width="600" height="282">
+			</div>
+
+			<hr class="separator"/>
+		</main>
+		<footer>
+			<div class="col_a">
+				<h4>
+					<span style="text-transform: uppercase; color: #0099cc">Cars activity in Milan</span>
+					<br/>
+					<span style="text-transform: uppercase; color: white">A panoramical visualization of COBRA's big data repository</span>
+				</h4>
+				<p>
+					A project by <br/>
+					<a href="https://twitter.com/angelesbriones" target="_blank" title="María de los Ángeles Briones twitter profile">María de los Ángeles Briones</a>
+					<br/>
+					<a href="mailto:ali.hmaity@polimi.it" title="Send a message to Ali Hmaity">Ali Hmaity</a>
+					<br/>
+					<a href="https://twitter.com/profeta_g" target="_blank" title="Giovanni Profeta twitter profile">Giovanni Profeta</a>
+				</p>
+			</div>
+			<div class="col_b">
+				<p>Politecnico di Milano<p>
+				<p>Course: A multidisciplinary perspective on Big Data</p>
+				<p>Professor: 
+					<a href="https://twitter.com/manudellavalle" target="_blank" title="Emanuele Della Valle twitter profile">Emanuele Della Valle</a>
+				</p>
+				<p>Source of the Dataset: <a href="http://www.telecomitalia.com/bigdatachallenge" title="Telecom Italia Big Data Challenge 2014" target="_blank">Telecom Italia Big Data Challenge 2014</a></p>
+				<p>Timespan: November–December 2013</p>
+			</div>
+			<div class="clear"></div>
+		</footer>
+	</body>
 </html>

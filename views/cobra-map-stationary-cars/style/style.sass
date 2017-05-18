@@ -1,0 +1,58 @@
+body
+	margin: 0
+	padding: 0
+	font-family: "Source Sans Pro", Arial, sans-serif
+
+.d3-tip 
+	line-height: 1
+	font-weight: bold
+	padding: 12px
+	background: rgba(0, 0, 0, 0.8)
+	color: #fff
+	border-radius: 2px
+	font-size: 12px /*13px*/
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after 
+	box-sizing: border-box
+	display: inline
+	width: 100%
+	line-height: 1
+	color: rgba(0, 0, 0, 0.8)
+	content: "\25BC"
+	position: absolute
+	text-align: center
+
+/* Style northward tooltips differently */
+.d3-tip.n:after 
+	margin: -1px 0 0 0
+	top: 100%
+	left: 0
+
+input[type="radio"] 
+	display: none
+
+label 
+	background-color: rgb(63, 62, 62)
+	width: 20%
+	padding: 4px
+	/*font-size: 13px*/
+	text-align: center
+	display: block
+	float: left
+	margin: 10px
+	box-shadow: 0px 2px 2px black 
+	color: white
+
+label:hover 
+	background-color: rgb(93, 92, 92)
+	box-shadow: 0px 1px 2px black 
+
+input[type="radio"]:checked + label 
+	color: rgb(73, 72, 72)
+	background-color: white
+	box-shadow: 0px 0px 2px black 
+
+.legend
+	position: relative
+	top: -50px
