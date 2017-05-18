@@ -1,7 +1,47 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", Arial, sans-serif; }
+  background-color: #FFF;
+  font-size: 12px;
+  font-family: "Source Sans Pro", Verdana, Arial, sans-serif; }
+
+main {
+  width: 100%;
+  clear: both;
+  margin: 0 auto; }
+
+svg {
+  margin: 0px auto;
+  width: 100%;
+  height: auto; }
+
+.label {
+  font-size: 0.7em; }
+
+g g:hover .label {
+  font-size: 2em;
+  z-index: 999; }
+
+.chart {
+  z-index: 2; }
+
+.chart div {
+  height: 20px;
+  width: 100px;
+  background-color: blue; }
+
+rect {
+  fill: blue; }
+
+.rect {
+  fill: red; }
+
+p {
+  color: white; }
+
+.clear {
+  clear: both;
+  width: 100%; }
 
 .background {
   background-color: #1c1c1c; }
